@@ -26,7 +26,7 @@ html, body, .body{
 .highlight-name{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    background-color: tomato;
+    background-color: #ff5757;
     color: white;
 }
 
@@ -39,6 +39,7 @@ html, body, .body{
     /* line-height: 20px; */
 }
 
+
 .made{
     position: absolute;
     margin: 0;
@@ -48,6 +49,14 @@ html, body, .body{
     padding-top: 1px;
 
 }
+
+
+.card{
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
 
 .blog-footer{
     position: fixed;
