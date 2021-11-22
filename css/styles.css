@@ -45,7 +45,7 @@ html, body, .body{
     margin: 0;
     right: 5px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-top: 1px;
 
 }
@@ -56,7 +56,10 @@ html, body, .body{
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
 }
-
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ff5757;
+    border: none;
+}
 
 .blog-footer{
     position: fixed;
