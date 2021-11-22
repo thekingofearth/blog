@@ -35,6 +35,8 @@ html, body, .body{
     font-weight: 500;
     font-size: larger;
     margin-top: 8px;
+    padding: 5px;
+    /* line-height: 20px; */
 }
 
 .made{
