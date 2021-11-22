@@ -7,12 +7,12 @@ html, body, .body{
 }
 
 .blog-header{
-   
+
     position: relative;
     padding-top: 35px;
     text-align: center;
     margin: 0;
-    
+
     /* width: 10px; */
 }
 
@@ -20,7 +20,7 @@ html, body, .body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .highlight-name{
@@ -51,15 +51,20 @@ html, body, .body{
 }
 
 
-.card{
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+/* .row{
+        margin: 0 auto;
+        float: none;
+        margin: 15px;
+} */
+
+
+.row.col{
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #ff5757;
-    border: none;
-}
+
+
 
 .blog-footer{
     position: fixed;
@@ -79,7 +84,8 @@ html, body, .body{
     font-size: 1.2rem;
     margin: 0;
 }
-.subscribe-button{
+
+.subscribe-button, .subscribe-button:hover{
     font-family: 'Open Sans', sans-serif;
     background-color: #ff5757;
     border: 0;
@@ -87,4 +93,5 @@ html, body, .body{
     color: white;
     padding: 7px;
     font-size: 1rem;
+    text-decoration: none;
 }
