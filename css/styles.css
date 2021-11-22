@@ -1,0 +1,76 @@
+html, body, .body{
+    position: relative;
+    background: #cddef4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-header{
+   
+    position: relative;
+    padding-top: 35px;
+    text-align: center;
+    margin: 0;
+    
+    /* width: 10px; */
+}
+
+.title-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.highlight-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    background-color: tomato;
+    color: white;
+}
+
+.tagline{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 8px;
+}
+
+.made{
+    position: absolute;
+    margin: 0;
+    right: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-top: 1px;
+
+}
+
+.blog-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.footer-text{
+    display: inline-block;
+    text-decoration: solid;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.subscribe-button{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ff5757;
+    border: 0;
+    margin: 0;
+    color: white;
+    padding: 7px;
+    font-size: 1rem;
+}
