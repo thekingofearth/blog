@@ -1,5 +1,26 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+.blog-title{
+  margin: 0;
+  padding-top: 10px;
+  font-size: 2.2rem;
+  font-family: 'Bebas Neue', cursive;
+  line-height: normal;
+
+}
 .blog-para{
-    display: inline-block;
-    width: 40%;
-    align-items: center;
+  margin: 0;
+  padding-top: 10px;
+  overflow-wrap: break-word;
+  font-size: 1.3rem;
+  font-family: 'Crimson Pro', serif;
+  margin-bottom: 10px;
+}
+
+.blog-img{
+  text-align: center;
 }

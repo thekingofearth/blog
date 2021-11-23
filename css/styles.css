@@ -56,26 +56,6 @@ html, body{
 
 }
 
-/* .temp-text{
-    font-family: 'Verbatium', cursive;
-    margin-top: 30px;
-    display: inline-block;
-    text-align: center;
-    font-size: 3rem;
-    color: #fff;
-    width: 240px;
-    text-shadow: 0 0 5px #ff5757,
-                 0 0 10px #ff5757, 
-                 0 0 20px #ff5757, 
-                 0 0 30px #ff5757, 
-                 0 0 40px #ff5757, 
-                 0 0 55px #ff5757, 
-                 0 0 70px #ff5757;
-} */
-
-
-
-
 .card{
     margin: 0 auto;
     margin-bottom: 15px;
@@ -86,8 +66,6 @@ html, body{
     padding-left: 0;
     padding-right: 0;
 }
-
-
 
 .blog-footer{
     position: fixed;
