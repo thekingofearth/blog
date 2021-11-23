@@ -1,5 +1,5 @@
-document.getElementById("subscribe-button").onclick = function () {
-    location.href = "subscribe.html";
+document.getElementById("").onclick = function () {
+    document.write("I got you. ");
 };
 
 

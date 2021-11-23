@@ -1,9 +1,11 @@
-html, body, .body{
+html, body{
     position: relative;
     background: #cddef4;
     text-align: center;
     margin: 0;
     padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .blog-header{
@@ -16,12 +18,16 @@ html, body, .body{
     /* width: 10px; */
 }
 
-.title-name{
+.title-name, .title-name:hover, .title-name:visited, .title-name:active{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     margin: 0;
     font-size: 2.4rem;
+    text-decoration: none;
+    color: black;
 }
+
+
 
 .highlight-name{
     font-family: 'Open Sans', sans-serif;
@@ -49,6 +55,7 @@ html, body, .body{
     padding-top: 1px;
 
 }
+
 /* .temp-text{
     font-family: 'Verbatium', cursive;
     margin-top: 30px;
@@ -90,7 +97,10 @@ html, body, .body{
     background-color: white;
     text-align: center;
     padding: 8px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 4px;
     font-family: 'Open Sans', sans-serif;
+
 
 }
 
