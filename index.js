@@ -11,20 +11,20 @@ app.use(bodyParser.urlencoded({
 }))
 
 
-
-const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://aayush:test1234@cluster0.ndxjj.mongodb.net/mydb";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-client.connect(err => {
-  const collection = client.db("mydb").collection("users");
-  // perform actions on the collection object
-  client.close();
-});
-
-// mongoose.connect('mongod://localhost:27017/mydb',{
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
+//
+// const { MongoClient } = require('mongodb');
+// const uri = "mongodb+srv://aayush:test1234@cluster0.ndxjj.mongodb.net/mydb";
+// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+// client.connect(err => {
+//   const collection = client.db("mydb").collection("users");
+//   // perform actions on the collection object
+//   client.close();
 // });
+
+mongoose.connect('mongodb+srv://aayush:test1234@cluster0.ndxjj.mongodb.net/mydb',{
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 var db = mongoose.connection;
 
