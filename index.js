@@ -16,7 +16,7 @@ const { MongoClient } = require('mongodb');
 const uri = "mongodb+srv://aayush:test1234@cluster0.ndxjj.mongodb.net/mydb";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
-  const collection = client.db("test").collection("devices");
+  const collection = client.db("mydb").collection("users");
   // perform actions on the collection object
   client.close();
 });
