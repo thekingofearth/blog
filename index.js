@@ -17,8 +17,8 @@ mongoose.connect('mongodb+srv://aayush:<aayush>@cluster0.ndxjj.mongodb.net/mydb'
 
 var db = mongoose.connection;
 
-db.on('error',()=>console.log("Error in connection to Database"))
-db.once('open',()=>console.log("Connected to Database"))
+db.on('error', ()=>console.log("Error in connection to Database"))
+db.once('open', ()=>console.log("Connected to Database"))
 
 app.post("/signup", (req, res)=>{
     var email = req.body.email;

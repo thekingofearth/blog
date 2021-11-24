@@ -12,8 +12,12 @@
   },
   "author": "aayush",
   "license": "ISC",
+  "engines": {
+    "node": "16.13.0"
+  },
   "bugs": {
     "url": "https://github.com/thekingofearth/blog/issues"
+
   },
   "homepage": "https://github.com/thekingofearth/blog#readme",
   "dependencies": {
