@@ -10,10 +10,21 @@ app.use(bodyParser.urlencoded({
   extended: true
 }))
 
-mongoose.connect('mongod://localhost:27017/mydb',{
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+
+
+const { MongoClient } = require('mongodb');
+const uri = "mongodb+srv://aayush:test1234@cluster0.ndxjj.mongodb.net/mydb";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
 });
+
+// mongoose.connect('mongod://localhost:27017/mydb',{
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 var db = mongoose.connection;
 
@@ -23,7 +34,7 @@ db.once('open', ()=>console.log("Connected to Database"))
 app.post("/signup", (req, res)=>{
     var email = req.body.email;
     var feedback = req.body.feedback;
-    
+
 
     var data = {
         "email": email,
@@ -36,7 +47,7 @@ app.post("/signup", (req, res)=>{
         }
         console.log("Record Added Successfully");
     });
-     
+
     return res.redirect('subscribe_success.html')
 })
 
