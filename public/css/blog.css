@@ -23,4 +23,43 @@ html, body{
 
 .blog-img{
   text-align: center;
+
+}
+
+@media only screen and (min-width: 480px) {
+  /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. 
+     This will work on desktops when the window is narrowed.  */
+     .blog-img{
+       height: 50%;
+       width: 50%;
+       display: inline;
+
+     }
+     .blog-para{
+       /* overflow-wrap: break-word; */
+      /* overflow-x: hidden; */
+      /* margin-left: 20%; */
+      /* margin-right: 80%; */
+      /* width: 800px; */
+
+     }
+
+}
+
+@media only screen and (max-width: 480px) {
+  /* STYLES HERE for BROWSER WINDOWS with a max-width of 480px. 
+     This will work on desktops when the window is narrowed.  */
+     /* .blog-img{
+       height: 50%;
+       width: 50%;
+       display: inline;
+
+     } */
+     /* .blog-para{
+       width: 100%;
+       overflow-wrap: break-word;
+       overflow-x: hidden;
+        
+     } */
+
 }
